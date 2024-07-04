@@ -13,6 +13,6 @@ def simulate_smart_meter(meter_id):
         response = requests.post(API_ENDPOINT, json=data)
         print(f"Sent data: {data} with response: {response.status_code}")
         
-        time.sleep(60)  # Send data every minute
+        time.sleep(60)  
 
 simulate_smart_meter("meter_001")
