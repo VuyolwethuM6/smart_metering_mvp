@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function App() {
     const [usageData, setUsageData] = useState([]);
-    const [goal, setGoal] = useState(100); // Example goal
+    const [goal, setGoal] = useState(100); 
     const [alert, setAlert] = useState(false);
 
     useEffect(() => {
