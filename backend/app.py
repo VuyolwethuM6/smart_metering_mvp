@@ -4,7 +4,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-# Initialize the database
+
 def init_db():
     conn = sqlite3.connect('usage_data.db')
     cursor = conn.cursor()
