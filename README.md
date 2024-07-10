@@ -1,1 +1,0 @@
-# smart_metering_mvp
